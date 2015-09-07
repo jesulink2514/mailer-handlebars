@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Mailer.Handlebars</id>
+    <version>1.0.0</version>
+    <title>Mailer.Handlebars</title>
+    <authors>jesulink2514</authors>
+    <owners></owners>
+    <description>
+      A simple but powerful mailer built up with handlerbars as viewengine.
+    </description>
+    <releaseNotes>
+    </releaseNotes>
+    <summary>
+      A simple but powerful mailer built up with handlerbars as viewengine.
+    </summary>
+    <language>en-US</language>
+    <projectUrl>https://nuget.org/packages/Mailer.Handlebars</projectUrl>
+    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <copyright>Copyright  2015</copyright>
+    <dependencies>
+        <group targetFramework="net45">
+          <dependency id="Handlebars.Net" version="1.4.4" />
+        </group>
+    </dependencies>
+    <references></references>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Configuration" targetFramework="net45" />      
+    </frameworkAssemblies>
+    <tags>
+      handlebars mail mailer template
+    </tags>
+  </metadata>
+  <files>
+    <file src="lib\" target="lib" />
+    <file src="tools\" target="tools" />
+    <file src="content\" target="content" />
+  </files>
+</package>
